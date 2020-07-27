@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <title>home </title>
+        <!--<link rel="stylesheet" type="text/css" href="view/set.css">-->
+        <!--<link rel="icon" width="160px" height="9px" href="view/img/icontab.png">-->
+        <link rel="stylesheet" type="text/css" href="view/index.css">
+        <link rel="stylesheet" type="text/css" href="view/navbar.css">
+    </head>
+    
+        <body id="idbody" onload="firstload()">
+            <div id="idnvb">
+                <div id="iddivlogo"><img id="idlogo" src="view/img/logob.png" onclick="gotohome()"></div>
+                <div id="iddivbutonmanage"><button id="idmanage"  onclick="manageyourvideo()">manage your video</button></div>
+                <div id="iddivbutonupload"><button id="iduploadfile"  onclick="uploadvideo()">upload your video</button></div>
+                <div id="iddivbutonprofile"><button id="idprofile"  onclick="manageprofile()">manage your account</button></div>
+                <div id="iddivsearch"><input id="idsearch" type="text" placeholder="Tìm kiếm video" ></div>
+                <div id="iddivbutonsign"><button id="idbtlogout" onclick="signinout()"></button></div>                
+            </div>
+            <br>
+            <br>
+            <dl id="idlist">
+               
+            </dl>
+            
+           
+            
+        </body>
+    
+    <script src="view/index.js"></script>
+    <script src="view/cookie.js"></script>
+    <script src="view/search.js"></script>
+</html>
