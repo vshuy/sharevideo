@@ -1,0 +1,155 @@
+#iddivvideo {
+    margin-top: 42px;
+    margin-left: 50px;
+    width: 1280px;
+    float: left;
+    display: inline-block;
+}
+
+body {
+    background-color: lightblue;
+}
+
+div.sgvideo {
+    float: left;
+    margin-top: 7px;
+    margin-left: 50px;
+}
+
+dl {
+}
+
+.dtsgvideo {
+    height: 130px;
+}
+
+.sgimg {
+    width: 200px;
+    height: 120px;
+    float: left;
+}
+
+.ifsgimg {
+    float: left;
+    margin-left: 25px;
+}
+
+.ifsgname {
+    font-weight: 900;
+    font-family: Calibri; 
+}
+
+.ifsgviewstimeup {
+    font-style: italic;
+}
+
+#namevideo {
+    font-family: Calibri; 
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+#iddivviewtimeup {
+    width: 1280px;
+    height: 30px;
+}
+
+#viewstimeup {
+    margin-top: 10px;
+    font-style: italic;
+    display: inline-block;
+}
+
+#idlike {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+#iddislike {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+#iddivaccount {
+    margin-top: 7px;
+    width: 1280px;
+    height: 30px;
+}
+
+#account {
+    margin-top: 7px;
+}
+
+#idsubscribe {
+    height: 30px;
+    float: right;
+}
+
+#divcomment {
+    width: 1280px;
+}
+
+#iddivinputcomment {
+    margin-top: 7px;
+    width: 1280px;
+}
+
+#idinputcomment {
+    border-radius: 5px;
+    width: 1241px;
+    height: 25px;
+}
+
+#idsenticon {
+    background-color: #F3F3F3;
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+#commentlist {
+    width: 1280px;
+}
+
+.dtcomment {
+    border-radius: 3px;
+    background-color: #F3F3F3;
+    margin-top: 1px;
+}
+
+.usernamecomment {
+    font-weight: 900;
+}
+
+.timeupcomment {
+    font-style: italic;
+}
+
+.contentcomment {
+    font-family: Calibri; 
+}
+
+.delbutoncomment {
+    margin-top: 2px;
+    margin-right: 3px;
+    border-radius: 10px;
+    float: right;
+    border-style: ridge;
+    border-color: white;
+}
+
+.editbutoncomment {
+     margin-top: 2px;
+    margin-right: 3px;
+    border-radius: 10px;
+    float: right;
+    border-style: ridge;
+    border-color: white;
+}
+
+.divbutoncomment {
+    display: inline;
+    height: 21px;
+}

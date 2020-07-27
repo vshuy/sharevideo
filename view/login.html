@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <title>login </title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <center>
+        <body>
+            <img src="img/logob.png" width="95px" height="23px">
+            <br>
+            Đăng nhập
+            <br>
+            <form name="loginform" onsubmit="return false">
+                Email <input type="text" name="email">
+                <br>
+                Password  <input type="password" name="password">
+                <br>
+                <span id="resultlogin"></span>
+                <br>
+                <button onclick="receivelogin()">Đăng nhập</button>
+            </form>
+            <a href="register.html" title="Đăng ký " target="_self" font="#FFFFFF">Đăng ký </a>
+    </center>
+</body><script src="login.js"></script>
+<script src="cookie.js"></script>
+<script src="sha512.js"></script>
+</html>

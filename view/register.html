@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <title>register </title>
+        <link rel="stylesheet" type="text/css" href="register.css">
+    </head>
+    <center>
+        <body>
+            <img src="img/logob.png" width="95px" height="23px">
+            <br>
+            Đăng ký
+        <br>
+            <form name="registerform" onsubmit="return false">
+                Name <input type="text" name="username">
+                <br>
+                Email <input type="text" name="email">
+                <br>
+                Password <input type="password" name="password">
+                <br>
+                Nhập lại password <input type="password" name="repassword">
+                <br>
+                <span id="resultregister"></span>
+                <br>
+                <button onclick="receiveregister()">Đăng ký</button>
+            </form>
+        </body>
+        <script src="register.js"></script>
+        <script src="cookie.js"></script>
+    </center>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <title>upload </title>
+        <link rel="stylesheet" type="text/css" href="upload.css">
+    </head>
+    <body onload="checkCookieUpload()">
+        <input type="file" id="file-input"/>
+        <button onclick="capture()" id="butoncapture">set avata video</button>
+        Category
+        <select id="myCategory">
+            <option value="music">music</option>
+            <option value="young music">young music</option>
+            <option value="gold music">gold music</option>
+            <option value="game music">game music</option>
+            <option value="learn english">learn english</option>
+            <option value="english music">english music</option>
+            <option value="animation">animation</option>
+            <option value="movie">movie</option>
+            <option value="comedy">comedy</option>
+            <option value="news">news</option>
+            <option value="war content">war content</option>
+            <option value="others">others</option>
+        </select>
+        <button id="confirm">upload to server</button>
+        <br>
+        Name of video view on website  <input type="text" id="idnamevideo">
+        <br>
+        <br>
+        <canvas id="canvas" width="640" height="360"></canvas>
+        <br>
+        <video id="video-element" width="854" height="480" controls>
+            <source type="video/mp4">
+        </video>
+        <br>
+    </body>
+    <script src="upload.js"></script>
+    <script src="cookie.js"></script>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <title>playvideo </title>
+        <link rel="stylesheet" type="text/css" href="playvideo.css">
+        <link rel="stylesheet" type="text/css" href="navbar.css">
+    </head>
+    <body onload="firstload()">
+        <div id="idnvb">
+            <div id="iddivlogo">
+                <img id="idlogo" src="img/logob.png" onclick="gotohome()">
+            </div>
+            <div id="iddivbutonmanage">
+                <button id="idmanage" onclick="manageyourvideo()">manage your video</button>
+            </div>
+            <div id="iddivbutonupload">
+                <button id="iduploadfile" onclick="uploadvideo()">upload your video</button>
+            </div>
+            <div id="iddivbutonprofile">
+                <button id="idprofile" onclick="manageprofile()">manage your account</button>
+            </div>
+            <div id="iddivsearch">
+                <input id="idsearch" type="text" placeholder="Tìm kiếm video">
+            </div>
+            <div id="iddivbutonsign">
+                <button id="idbtlogout" onclick="signinout()"></button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div>
+            <div id="iddivvideo">
+                <video id="video-element" width="1280" height="720" controls>
+                    <source type="video/mp4">
+                </video>
+                <br>
+                <span id="namevideo"></span>
+                <div id="iddivviewtimeup">
+                    <span id="viewstimeup"></span>
+                    <img id="iddislike" src="img/dislike.png">
+                    <img id="idlike" src="img/like.png">
+                </div>
+                <div id="iddivaccount">
+                    <span id="account"></span>
+                    <img id="idsubscribe" src="img/sc.png">
+                </div>
+                <div id="divcomment">
+                    <div id="iddivinputcomment">
+                        <input id="idinputcomment" type="text" placeholder="Type your comment here">
+                        <img id="idsenticon" onclick="sentcomment()" src="img/send.png">
+                    </div>
+                    <dl id="commentlist"></dl>
+                </div>
+            </div>
+            <div class="sgvideo">
+                <span>VIDEO ĐỀ XUẤT</span>
+                <dl id="sglist"></dl>
+            </div>
+        </div>
+    </body>
+    <script src="navbar.js"></script>
+    <script src="playvideo.js"></script>
+    <script src="cookie.js"></script>
+    <script src="searchforplayvideo.js"></script>
+</html>

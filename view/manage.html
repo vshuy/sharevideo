@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <title>manage video </title>
+        <link rel="stylesheet" type="text/css" href="manage.css">
+        <link rel="stylesheet" type="text/css" href="navbar.css">
+    </head>
+    <body id="idbody" onload="firstload()">
+         <div id="idnvb">
+                <div id="iddivlogo"><img id="idlogo" src="img/logob.png" onclick="gotohome()"></div>
+                <div id="iddivbutonmanage"><button id="idmanage"  onclick="manageyourvideo()">manage your video</button></div>
+                <div id="iddivbutonupload"><button id="iduploadfile"  onclick="uploadvideo()">upload your video</button></div>
+                <div id="iddivbutonprofile"><button id="idprofile"  onclick="manageprofile()">manage your account</button></div>
+                <div id="iddivsearch"><input id="idsearch" type="text" placeholder="Tìm kiếm video" ></div>
+                <div id="iddivbutonsign"><button id="idbtlogout" onclick="signinout()"></button></div>     
+         </div>
+         <br>
+         <br>
+         <dl id="idlist">
+               
+         </dl>
+    </body>
+    <script src="navbar.js"></script>
+    <script src="manage.js"></script>
+    <script src="cookie.js"></script>
+    <script src="searchforplayvideo.js"></script>
+</html>

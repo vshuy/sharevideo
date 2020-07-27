@@ -1,0 +1,40 @@
+#idbody {
+    background: white;
+}
+
+#idlist {
+    
+}
+
+.dt {
+    height: 410px;
+    display: inline-block;
+    margin-left: 14px;
+}
+
+.divimg {
+}
+
+.imgoflist {
+    width: 610px;
+    height: 360px;
+    text-align: center;
+}
+
+.spname {
+    font-weight: 900;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 0%;
+}
+
+.viewsandtimeup {
+    margin-left: 0%;
+}
+
+.butondelete {
+    margin-left: 3%;
+}
+.butonupdatename {
+    margin-left: 3%;
+}

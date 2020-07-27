@@ -1,0 +1,84 @@
+#iddivlogo {
+    float: left;
+    width: 120px;
+    height: 23px;
+    margin-left: 10px;
+}
+
+#iddivbutonmanage {
+    float: left;
+    height: 39px;
+    
+}
+
+#iddivbutonsign {
+    float: right;
+    width: 90px;
+    height: 39px;
+    margin-right: 10px;
+}
+
+#iddivbutonupload {
+    float: left;
+    height: 39px;
+    margin-left: 20px;
+}
+
+#iddivsearch {
+    float: left;
+    width: 270px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+#iddivbutonprofile {
+    float: left;
+    height: 39px;
+    margin-left: 20px;
+}
+
+#idnvb {
+    background-color: #F3F3F3;
+    margin-top: 2px;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+}
+
+#idbtlogout {
+    width: 90px;
+    height: 39px;
+}
+
+#idmanage {
+    height: 39px;
+}
+
+#iduploadfile {
+    height: 39px;
+}
+
+#idprofile {
+    height: 39px;
+}
+
+#idlogo {
+    margin-top: 9px;
+    width: 95px;
+    height: 23px;
+}
+
+#idsearch {
+    width: 270px;
+    height: 33px;
+}
+
+.autocomplete-items div {
+    padding: 3px;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover {
+    background-color: #e9e9e9;
+}
