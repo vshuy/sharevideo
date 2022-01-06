@@ -1,0 +1,13 @@
+body {
+    background: #eaeaea;
+}
+
+#resultlogin {
+    text-align: center;
+    color: blue;
+    font-size: 10px;
+    max-height: 10px;
+}
+a:link {
+    color: red;
+}

@@ -1,0 +1,217 @@
+        /*-----------------------------------------------------------------------MOBILE REGION----------------------------------------------------------------------------------------*/
+        
+        @media only screen and (max-width: 600px) {
+            .dtsgvideo {
+                height: fit-content;
+                width: 100%;
+                display: block;
+                padding: 2px;
+            }
+            #namevideo {
+                margin-top: 0px;
+                height: 8px;
+            }
+            #viewstimeup {
+                margin-top: 0px;
+            }
+            #iddislike {
+                width: 20px;
+                height: 20px;
+                float: right;
+            }
+            #idlike {
+                width: 20px;
+                height: 20px;
+                float: right;
+            }
+            #iddivaccount {
+                margin-top: 0px;
+                height: 8px;
+            }
+            #account {
+                margin-top: 0px;
+            }
+            #idsubscribe {
+                height: 20px;
+                float: right;
+            }
+            #divcomment {
+                margin-top: 20px;
+            }
+            #idinputcomment {
+                border-radius: 5px;
+                width: 90%;
+                height: 28px;
+                display: inline-block;
+            }
+            #idsenticon {
+                background-color: #F3F3F3;
+                float: right;
+                width: 27px;
+                height: 27px;
+                display: inline-block;
+            }
+            .sgimg {
+                width: 100%;
+                height: auto;
+            }
+            .ifsgname {
+                font-weight: 800;
+                font-family: Calibri;
+                width: 100%;
+                font-size: 10px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+            .ifsgviewstimeup {
+                width: 100%;
+                font-style: italic;
+                font-size: 9px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+            .ifsguser {
+                width: 100%;
+                font-size: 8px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+            .dtcomment {
+                border-radius: 3px;
+                background-color: #F3F3F3;
+                margin-top: 1px;
+            }
+            .usernamecomment {
+                font-weight: 700;
+                font-size: 12px;
+            }
+            .timeupcomment {
+                font-style: italic;
+                font-size: 10px;
+            }
+            .contentcomment {
+                font-family: Calibri;
+                font-size: 10px;
+            }
+            .delbutoncomment {
+                margin-right: 3px;
+                border-radius: 10px;
+                float: right;
+                border-style: ridge;
+                border-color: white;
+                height: fit-content;
+                width: fit-content;
+            }
+            .editbutoncomment {
+                margin-right: 3px;
+                border-radius: 10px;
+                float: right;
+                border-style: ridge;
+                border-color: white;
+            }
+            .divbutoncomment {
+                display: inline;
+                height: 21px;
+            }
+        }
+        /* ----------------------------------------------------------------------DESKTOP REGION---------------------------------------------------------------------------------------*/
+        
+        @media only screen and (min-width: 768px) {
+            .dtsgvideo {
+                height: fit-content;
+                width: 100%;
+                display: block;
+            }
+            .sgimg {
+                width: 100%;
+                height: auto;
+            }
+            #viewstimeup {
+                margin-top: 10px;
+            }
+            #iddislike {
+                width: 30px;
+                height: 30px;
+                float: right;
+            }
+            #idlike {
+                width: 30px;
+                height: 30px;
+                float: right;
+            }
+            #iddivaccount {
+                margin-top: 15px;
+                height: 30px;
+            }
+            #account {
+                margin-top: 7px;
+            }
+            #idsubscribe {
+                height: 30px;
+                float: right;
+            }
+            #idinputcomment {
+                border-radius: 5px;
+                width: 96%;
+                height: 25px;
+                display: inline-block;
+            }
+            #idsenticon {
+                display: inline-block;
+                background-color: #F3F3F3;
+                width: 25px;
+                height: 25px;
+            }
+            .ifsgname {
+                font-weight: 800;
+                font-family: Calibri;
+                width: 100%;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+            .ifsgviewstimeup {
+                font-style: italic;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                width: 100%;
+            }
+            .dtcomment {
+                border-radius: 3px;
+                background-color: #F3F3F3;
+                margin-top: 1px;
+            }
+            .usernamecomment {
+                font-weight: 900;
+            }
+            .timeupcomment {
+                font-style: italic;
+            }
+            .contentcomment {
+                font-family: Calibri;
+            }
+            .delbutoncomment {
+                margin-top: 2px;
+                margin-right: 3px;
+                border-radius: 10px;
+                float: right;
+                border-style: ridge;
+                border-color: white;
+            }
+            .editbutoncomment {
+                margin-top: 2px;
+                margin-right: 3px;
+                border-radius: 10px;
+                float: right;
+                border-style: ridge;
+                border-color: white;
+            }
+            .divbutoncomment {
+                display: inline;
+                height: 21px;
+            }
+        }

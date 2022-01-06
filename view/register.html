@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>register </title>
+    <link rel="stylesheet" type="text/css" href="register1.css">
+</head>
+
+<body>
+    <div style="padding: 25px; background: #f8f9fa; width: 100%;height: auto; margin: auto; box-shadow: 0px 0px 8px 1px #123; margin-top: 120px;">
+        <center>
+            <img src="img/logob.png" width="95px" height="23px">
+            <p style="font-size: 25px">Đăng ký tài khoản</p>
+        </center>
+        <form name="registerform" onsubmit="return false">
+            Name <input type="text" name="username" class="form-control">
+            <br> Email <input type="text" name="email" class="form-control"> Password <input type="password" name="password" class="form-control">
+            <br> Nhập lại password <input type="password" class="form-control" name="repassword" class="form-control">
+            <br>
+            <span id="resultregister"></span>
+            <br>
+            <center>
+                <button class="btn btn-info" onclick="receiveregister()">Đăng ký</button>
+            </center>
+        </form>
+        <a href="login.html" title="Đăng ký " style="float: right; padding-bottom: 15px;" target="_self" font="#FFFFFF">Đăng nhập</a>
+        <div style="height: 15px"></div>
+    </div>
+</body>
+<script src="register.js"></script>
+<script src="cookie.js"></script>
+
+</html>

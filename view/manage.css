@@ -1,0 +1,32 @@
+#idbody {
+    background: white;
+}
+
+.divimg {
+    width: 100%;
+    height: auto;
+}
+
+.imgoflist {
+    width: 100%;
+    height: auto;
+}
+
+.spname {
+    font-weight: 900;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 0%;
+}
+
+.viewsandtimeup {
+    margin-left: 0%;
+}
+
+.butondelete {
+    margin-left: 3%;
+}
+
+.butonupdatename {
+    margin-left: 3%;
+}

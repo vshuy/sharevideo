@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="view/index.css">
+    <link rel="stylesheet" type="text/css" href="view/navbar.css">
+</head>
+
+
+<body id="idbody" onload="firstload()">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md bg-light border mb-xs-5">
+            <a class="navbar-brand text-primary" href="index.html"><img src="view/img/logob.png" style="width: 105px;height: auto;margin-bottom: 3px;"></a>
+            <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarexperiment" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                        class="bi bi-grid-3x3-gap-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z" />
+                    </svg></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarexperiment">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-body" onclick="manageyourvideo()">Manage video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-body" onclick="uploadvideo()">Upload video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-body" onclick="manageprofile()">Manage account</a>
+                    </li>
+                    <li class="nav-item">
+                        <input class="form-control border-0 mt-1 position-relative" id="idsearch" placeholder="Search here">
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn bg-white  my-sm-0 border-0  text-body" id="idbtlogout" type="button" onclick="signinout()"></button>
+                </form>
+            </div>
+        </nav>
+        <div class="row mt-1" id="idlist">
+
+        </div>
+    </div>
+</body>
+<script src="view/index.js"></script>
+<script src="view/cookie.js"></script>
+<script src="view/search.js"></script>
+
+</html>

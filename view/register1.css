@@ -1,0 +1,10 @@
+body {
+    background: #eaeaea;
+    
+}
+#resultregister {
+    text-align: center;
+    color: red;
+    font-size: 10px;
+    max-height: 10px;
+}

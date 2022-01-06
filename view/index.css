@@ -1,0 +1,107 @@
+#idbody {
+    background: white;
+}
+
+.imgoflist {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.spname {
+    float: left;
+    width: 610px;
+    font-family: Calibri;
+    font-weight: 900;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 0%;
+}
+
+.viewsandtimeup {
+    float: left;
+    margin-left: 0%;
+    font-style: italic;
+}
+
+.account {
+    margin-left: 1%;
+    float: left;
+}
+
+
+/*-----------------------------------------------------------------------MOBILE REGION----------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+    #idbody {
+        background: white;
+    }
+    .imgoflist {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .spname {
+        float: left;
+        width: 610px;
+        font-family: Calibri;
+        font-weight: 900;
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .viewsandtimeup {
+        float: left;
+        margin-left: 0%;
+        font-style: italic;
+    }
+    .account {
+        margin-left: 1%;
+        float: left;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+
+/* ----------------------------------------------------------------------DESKTOP REGION---------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+    #idbody {
+        background: white;
+    }
+    .imgoflist {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .spname {
+        float: left;
+        width: 100%;
+        font-family: Calibri;
+        font-weight: 900;
+        width: fit-content;
+        height: fit-content;
+        margin-left: 0%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .viewsandtimeup {
+        float: left;
+        margin-left: 0%;
+        font-style: italic;
+    }
+    .account {
+        margin-left: 1%;
+        float: left;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}

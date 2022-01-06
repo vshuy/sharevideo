@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="icon" href="../view/img/logob.png">
+    <meta charset="UTF-8">
+    <title>Login </title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div style="padding: 25px; background: #f8f9fa; width: 100%;height: auto; margin: auto; box-shadow: 0px 0px 8px 1px #123; margin-top: 120px;">
+            <center>
+                <img src="img/logob.png" width="95px" height="23px">
+                <p style="font-size: 25px">Đăng nhập người dùng</p>
+            </center>
+            <form name="loginform" onsubmit="return false">
+                Email <br>
+                <input class="form-control" type="text" name="email">
+                <br> Password <br>
+                <input class="form-control" type="password" name="password">
+                <br>
+                <center>
+                    <span id="resultlogin"></span>
+                </center>
+                <br>
+                <center>
+                    <button class="btn btn-info" onclick="receivelogin()">Đăng nhập</button>
+                </center>
+            </form>
+            <a href="register.html" title="Đăng ký " style="float: right;" target="_self" font="#FFFFFF">Đăng ký</a>
+            <div style="height: 15px"></div>
+        </div>
+    </div>
+</body>
+<script src="login.js"></script>
+<script src="cookie.js"></script>
+<script src="sha512.js"></script>
+
+</html>

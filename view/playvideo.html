@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi" style="width: 100%; height: 100%; margin: 0px;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>playvideo</title>
+    <link rel="stylesheet" type="text/css" href="playvideo.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+</head>
+
+<body onload="firstload()" style="width: 100%; height: 100%; margin: 0px;background-color: #F9F9F9;">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md bg-light border">
+            <a class="navbar-brand text-primary" href="../index.html"><img src="img/logob.png" style="width: 105px;height: auto;margin-bottom: 3px;"></a>
+            <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarexperiment" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                        class="bi bi-grid-3x3-gap-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z" />
+                    </svg></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarexperiment">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-body" onclick="manageyourvideo()">Manage video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-body" onclick="uploadvideo()">Upload video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-body" onclick="manageprofile()">Manage account</a>
+                    </li>
+                    <li class="nav-item">
+                        <input class="form-control mr-sm-2 border-0 mt-1" id="idsearch" placeholder="Search here">
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn my-sm-0 border-0 bg-light text-body" id="idbtlogout" type="button" onclick="signinout()"></button>
+                </form>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="mt-lg-1" id="iddivvideo" style="width: 100%;">
+                    <video id="video-element" height="auto" width="100%" controls>
+                        <source type="video/mp4">
+                    </video>
+                    <br>
+                    <p id="namevideo" style="font-family: Calibri;font-weight: 900; width: 100%;">
+                    </p>
+                    <div id="iddivviewtimeup" style="width: 100%;">
+                        <span id="viewstimeup" style="font-style: italic;"></span>
+                        <img id="iddislike" src="img/dislike.png">
+                        <img id="idlike" src="img/like.png">
+                    </div>
+                    <div id="iddivaccount" style="width: 100%;">
+                        <span id="account"></span>
+                        <img id="idsubscribe" src="img/sc.png">
+                    </div>
+                    <div id="divcomment" style="width: 100%;">
+                        <div id="iddivinputcomment" style="margin-top: 7px;height: 30px;">
+                            <input id="idinputcomment" class="form-control" type="text" placeholder="Type your comment here and click send icon to comment">
+                            <img id="idsenticon" onclick="sentcomment()" src="img/send.png">
+                        </div>
+                        <dl id="commentlist" style="width: 100%;"></dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <span>VIDEO ĐỀ XUẤT</span>
+                <dl id="sglist"></dl>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="navbar.js"></script>
+<script src="playvideo.js"></script>
+<script src="cookie.js"></script>
+<script src="searchforplayvideo.js"></script>
+
+</html>
