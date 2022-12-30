@@ -5,5 +5,5 @@ Our website
 https://nik-media.cf/  
 or https://youtubez.netlify.app/
 Want more over :))
-https://nikip.cf/
+https://nik-media.cf/ips
 have a nice day guy
