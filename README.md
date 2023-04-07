@@ -2,8 +2,8 @@
 This system build to share videos on internet
 Hight scale requests, no problem
 Our website
-https://nik-media.cf/  
+https://nik-media.netlify.app/  
 or https://youtubez.netlify.app/
 Want more over :))
-https://nik-media.cf/ips
-have a nice day guy
+https://nik-media.netlify.app/ips
+Enjoy your day
